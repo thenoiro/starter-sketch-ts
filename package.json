@@ -1,0 +1,45 @@
+{
+  "name": "starter-sketch-ts",
+  "version": "1.0.0",
+  "description": "Empty simple convenient environment for writing something in typescript",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "start:open": "node index.js --open",
+    "dev": "node index.js --dev",
+    "dev:open": "node index.js --dev --open",
+    "build": "node index.js --build",
+    "build:open": "node index.js --build --open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thenoiro/starter-sketch-ts.git"
+  },
+  "author": "Bohdan Chernovol",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thenoiro/starter-sketch-ts/issues"
+  },
+  "homepage": "https://github.com/thenoiro/starter-sketch-ts#readme",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^2.11.0",
+    "@typescript-eslint/parser": "^2.11.0",
+    "clean-webpack-plugin": "^3.0.0",
+    "copy-webpack-plugin": "^6.0.3",
+    "css-loader": "^3.6.0",
+    "eslint": "^7.4.0",
+    "eslint-config-airbnb-base": "^14.2.0",
+    "eslint-plugin-import": "^2.22.0",
+    "html-webpack-plugin": "^4.3.0",
+    "style-loader": "^1.2.1",
+    "ts-loader": "^8.0.1",
+    "typescript": "^3.9.6"
+  },
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "open": "^7.0.4",
+    "serve-handler": "^6.1.3",
+    "webpack": "^4.43.0",
+    "webpack-dev-server": "^3.11.0"
+  }
+}
