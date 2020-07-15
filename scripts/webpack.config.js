@@ -16,6 +16,9 @@ const configBuilder = (options = {}) => {
       path: path.resolve(__dirname, '../dist'),
       filename: 'index.js',
     },
+    resolve: {
+      extensions: ['.ts', '.js'],
+    },
     plugins: [
       new CleanWebpackPlugin(),
       new CopyPlugin({
